@@ -26,6 +26,14 @@ public class TestDemo4 {
 		System.out.println(a + " + " + b + " = " + (a + b));
 	}
 
+
+	// subtraction method by --> Hadeel
+        public static void sub(double a, double b) {
+		System.out.println(a + " - " + b + " = " + (a - b));
+		System.out.println(b + " - " + a + " = " + (b - a));
+	}
+
+		
 	public double divide(double a, double b) {
 
 		this.a = a;
