@@ -44,6 +44,10 @@ public class TestDemo4 {
 			/**
 			 * fixing all the errors , be careful some of you delete the add method & sub method
 			 */
+		//equal method by Ruby
+		isNumEqual(5.5,7.4);
+		isNumEqual(6.4,99.9);
+		
 	}
 		 
 	public static void add(int a, int b) {
@@ -67,7 +71,13 @@ public class TestDemo4 {
 		return result;
 	}
 	
-	public static void multiply(int a, int b) {
+	public static void multiply(int a, int b) { 
 		System.out.println("Result: " + a + " * " + b + " = " + (a * b));
 	}
+	public static void isNumEqual(double a,double b){  //Ruby
+		if(a==b){
+			System.out.println("Equal");
+		}else {
+			System.out.println("not equal";
+		}
 }
