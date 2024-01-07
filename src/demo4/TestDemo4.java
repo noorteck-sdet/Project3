@@ -22,9 +22,17 @@ public class TestDemo4 {
 
 
 		// Subtraction --> Hadeel  
+		System.out.println();
 		System.out.println(" Subtraction Method :");
-		 Sub(40, 22);    
+		 //Sub(40, 22);   THIS LINE IS MARKED AS COMMENT BY YAHIYA AT 11:35 PM (CENTRAL TIME) SO I CAN BE ABLE TO RUN THE CODE.  
 	   
+		 
+		// Multiply method by Yahiya
+		System.out.println();
+		 System.out.println("Multiplication Method (x)");
+		 multiply(20, 6);
+		 
+		 
 	}
 
 
@@ -45,5 +53,7 @@ public class TestDemo4 {
 		return result;
 	}
 	
-	
+	public static void multiply(int a, int b) {
+		System.out.println("Result: " + a + " * " + b + " = " + (a * b));
+	}
 }
