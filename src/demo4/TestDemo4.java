@@ -20,12 +20,12 @@ public class TestDemo4 {
 		double r1 = obj.divide(88, 20);
 		System.out.println("Result: "+ obj.a + " / "+ obj.b+ " = " + r1);
 
-
-		// Subtraction --> Hadeel  
+		// subtraction method by --> Hadeel
 		System.out.println();
-		System.out.println(" Subtraction Method :");
-		 //Sub(40, 22);   THIS LINE IS MARKED AS COMMENT BY YAHIYA AT 11:35 PM (CENTRAL TIME) SO I CAN BE ABLE TO RUN THE CODE.  
-	   
+		System.out.print("Sub method: ");
+		sub(40, 22);
+
+		
 		 
 		// Multiply method by Yahiya
 		System.out.println();
@@ -41,8 +41,18 @@ public class TestDemo4 {
 			int num=11%3;
 			System.out.println("Result: " + num); //modulus 
 			
+			/**
+			 * fixing all the errors , be careful some of you delete the add method & sub method
+			 */
 	}
 		 
+	public static void add(int a, int b) {
+		System.out.println("Result: " + a + " * " + b + " = " + (a + b));
+	}
+	
+	public static void sub(int a, int b) {
+		System.out.println("Result: " + a + " * " + b + " = " + (a - b));
+	}
 
 
 
