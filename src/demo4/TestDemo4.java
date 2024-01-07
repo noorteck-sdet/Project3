@@ -73,11 +73,14 @@ public class TestDemo4 {
 	
 	public static void multiply(int a, int b) { 
 		System.out.println("Result: " + a + " * " + b + " = " + (a * b));
+		
+		//BTW i hate math--Ruby
 	}
 	public static void isNumEqual(double a,double b){  //Ruby
 		if(a==b){
 			System.out.println("Equal");
 		}else {
-			System.out.println("not equal";
+			System.out.println("not equal");
 		}
+}
 }
