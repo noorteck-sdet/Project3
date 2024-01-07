@@ -20,7 +20,7 @@ public class TestDemo4 {
 		double r1 = obj.divide(88, 20);
 		System.out.println("Result: "+ obj.a + " / "+ obj.b+ " = " + r1);
 
-		   
+		 Sub(40, 22);   // Subtraction --> Hadeel   
 	   
 	}
 
