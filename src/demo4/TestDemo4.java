@@ -39,7 +39,7 @@ public class TestDemo4 {
 			System.out.println();
 			System.out.println("modulus Method (%)");
 			int num=11%3;
-			System.out.println("Result: " + num);
+			System.out.println("Result: " + num); //modulus 
 			
 	}
 		 
