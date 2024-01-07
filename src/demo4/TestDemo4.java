@@ -32,14 +32,18 @@ public class TestDemo4 {
 		 System.out.println("Multiplication Method (x)");
 		 multiply(20, 6);
 		 
+			
+			
+			//modulus method by Simaa
+			
+			System.out.println();
+			System.out.println("modulus Method (%)");
+			int num=11%3;
+			System.out.println("Result: " + num);
+			
+	}
 		 
-	}
 
-
-
-	public static void add(int a, int b) {
-		System.out.println(a + " + " + b + " = " + (a + b));
-	}
 
 
 		
