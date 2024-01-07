@@ -20,7 +20,16 @@ public class TestDemo4 {
 		double r1 = obj.divide(88, 20);
 		System.out.println("Result: "+ obj.a + " / "+ obj.b+ " = " + r1);
 
+			      
+	       // subtraction method by --> Hadeel
+		double a = 20;
+		double b = 10;
+		System.out.println(a + " - " + b + " = " + (a - b));
+		
 	}
+
+
+}
 	
 	public static void add(int a, int b) {
 		System.out.println(a + " + " + b + " = " + (a + b));
