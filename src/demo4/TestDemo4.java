@@ -17,7 +17,7 @@ public class TestDemo4 {
 		System.out.println();
 		TestDemo4 obj = new TestDemo4();
 		System.out.println("Divide Methods /:/");
-		double r1 = obj.divide(88, 20);
+		double r1 = obj.divide(88, 0);
 		System.out.println("Result: " + obj.a + " / " + obj.b + " = " + r1);
 
 		// subtraction method by --> Hadeel
@@ -59,8 +59,16 @@ public class TestDemo4 {
 
 		this.a = a;
 		this.b = b;
-
+		
+	//Definition of divide by 0 by Vladimir	
+    //Can not divide by 0
 		double result = a / b;
+		
+		if (b != 0) {
+	         result = a / b;
+	        } else {
+	            System.out.println("Cannot divide by zero.");
+	        }
 
 		return result;
 	}
